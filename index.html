@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="images/calcultor (5).png" type="images/calcultor.png">
+<script src="index.js"></script>
+</head>
+<body>
+       
+    <div class="calculator-body">
+        <table>
+            <tr>
+                <td colspan="4">
+                     <h1> Simple Calculator</h1>
+                    <div class="divinpt">
+                     
+                        <input type="text" name="" id="result">
+                    </div>
+                </td>
+            </tr>
+            <tr class="button">
+                <td><input type="button" value="C" id="cat_btn" onclick="clearResult()"></td>
+                <td><input type="button" value="/" onclick="calculation('/')"></td>
+                <td><input type="button" value="%" onclick="calculation('%')"></td>
+                <td><input type="button" value="DEL" id="delete_btn" onclick="deleteLast()"></td>
+            </tr>
+            <tr class="button">
+                <td><input type="button" value="7" onclick="calculation('7')"></td>
+                <td><input type="button" value="8" onclick="calculation('8')"></td>
+                <td><input type="button" value="9" onclick="calculation('9')"></td>
+                <td><input type="button" value="*" onclick="calculation('*')"></td>
+            </tr>
+            <tr class="button">
+                <td><input type="button" value="4" onclick="calculation('4')"></td>
+                <td><input type="button" value="5" onclick="calculation('5')"></td>
+                <td><input type="button" value="6" onclick="calculation('6')"></td>
+                <td><input type="button" value="-" onclick="calculation('-')"></td>
+            </tr>
+            <tr class="button">
+                <td><input type="button" value="1" onclick="calculation('1')"></td>
+                <td><input type="button" value="2" onclick="calculation('2')"></td>
+                <td><input type="button" value="3" onclick="calculation('3')"></td>
+                <td><input type="button" value="+" onclick="calculation('+')"></td>
+            </tr>
+            <tr class="button">
+                <td><input type="button" value="." onclick="calculation('0')"></td>
+                <td><input type="button" value="0" onclick="calculation('.')"></td>
+                <td><input type="button" value="+/-" onclick=""></td>
+                <td><input type="button" value="=" id="equal_btn" onclick="equal()"></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

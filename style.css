@@ -1,0 +1,85 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f2f2f2;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.calculator-body {
+ background-color:black;
+ border-radius: 10px;
+ padding: 20px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ color: #fff;
+}
+
+table {
+ width: 100%;
+}
+h1{
+ text-align: center;
+ margin: 10px;
+ padding: 5px;
+}
+.button input[type="button"] {
+ width: 100%;
+ padding: 20px 0;
+ margin: 5px 0;
+ font-size: 24px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ background-color: #8405c3;
+ color: #fff;
+ transition: background-color 0.3s;
+}
+
+#cat_btn{
+ background-color: #f9441f;
+}
+#cat_btn:hover{
+ background-color: #b929a1;
+
+}
+#delete_btn{
+ background-color: #0ca9b4;
+
+}
+#delete_btn:hover{
+ background-color: #b929a1;
+
+}
+#equal_btn{
+ background-color: #04724d;
+
+}
+#equal_btn:hover{
+ background-color: #b929a1;
+
+}
+.button input[type="button"]:hover {
+ background-color: #b929a1;
+}
+
+.button input[type="button"]:active {
+ background-color: #1f618d;
+}
+
+.divinpt input[type="text"] {
+ width: 100%;
+ padding: 20px;
+ font-size: 30px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ box-sizing: border-box;
+ text-align: right;
+}
